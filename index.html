@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carta de admisión</title>
     <link rel="stylesheet" href="css/carta.css">
+   
     <link rel="stylesheet" href="css/animacion.css">
+   
     <script src="js/index.js"></script>
 </head>
 <body>
-    <figure onClick="togglePlay()"><img src="img/escudo.png" alt="escudo de Hogwarts"></figure>
+    <figure onClick="togglePlay()">
+        <img id="image_bg" src="img/escudo.png" alt="escudo de Hogwarts" onmouseover="hover(this)" onmouseout="unhover(this)" >
+    </figure>
     <header>
         <article>
             <h1>ESCUELA de MAGIA Y HECHICERÍA de HOGWARTS</h1>

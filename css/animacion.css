@@ -19,6 +19,7 @@ section:hover>* ,header:hover>*,footer:hover>*,figure:hover>*{
 }
 
 
+
 @keyframes animacion_varita {
     0% {
         cursor: url(../img/varita.png), auto;

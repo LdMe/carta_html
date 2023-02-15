@@ -7,3 +7,11 @@ function togglePlay() {
         audio.pause();
     }
 }
+
+function hover(element) {
+    element.setAttribute('src', 'img/escudo_color.png');
+}
+
+function unhover(element) {
+    element.setAttribute('src', 'img/escudo.png');
+}
