@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test carta</title>
+    <title>Carta de admisión</title>
+    <link rel="stylesheet" href="css/carta.css">
+    <link rel="stylesheet" href="css/animacion.css">
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <h1>Bienvenidos </h1>
+    <figure onClick="togglePlay()"><img src="img/escudo.png" alt="escudo de Hogwarts"></figure>
+    <header>
+        <article>
+            <h1>ESCUELA de MAGIA Y HECHICERÍA de HOGWARTS</h1>
+            <h2>DIRECTOR: ALBUS DUMBLEDORE</h2>
+            <p>(Orden de Merlin, Primera Clase, Gran Cruz de la Orden del Fénix y Gran Cruz de la Orden del Mérito Mágico)</p>
+        </article>
+    </header>
+    <main>
+        <section>
+            <article>
+                <p>Señor(a): <strong>[[nombre]]</strong></p>
+                <p>Le informamos que ha sido aceptado(a) en la Escuela de Magia y Hechicería de Hogwarts.</p>
+                <p>El primer día de clases será el <strong>[[fecha]]</strong> a las <strong>[[hora]]</strong> en el <strong>[[lugar]]</strong>.</p>
+                <p>Por favor, traiga consigo lo siguiente:</p>
+            </article>
+        </section>
+        <section>
+            <ul>
+                <li>Un sombrero de copa</li>
+                <li>Un traje de gala</li>
+                <li>Un par de zapatos de vestir</li>
+                <li>Un par de zapatos cómodos</li>
+                <li>Un par de calcetines</li>
+                <li>Un par de guantes</li>
+                <li>Un par de calcetines</li>
+            
+            </ul>
+        </section>
+        <section>
+            <article>
+                <p>Los estudiantes deberán acudir a la estación de trenes de King's Cross a las <strong>[[hora]]</strong> del <strong>[[fecha]]</strong> para tomar el <strong>[[tren]]</strong> que los llevará a Hogwarts.</p>
+                <p>Esperamos que su estancia en Hogwarts sea provechosa y que disfrute de su tiempo en nuestra escuela.</p>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <article>
+            <p>Atentamente,</p>
+            <p id="firma">Albus Dumbledore</p>
+            <p>Director</p>
+        </article>
+        <section>
+            <audio id="audio" src="audio/hp.mp3" loop></audio>
+        </section>
+    </footer>
+
+    
 </body>
 </html>
