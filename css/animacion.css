@@ -1,9 +1,7 @@
-p,li,h1,h2 {
-    transition: 0.3s;
-}
+
 
 p:hover,li:hover,h1:hover,h2:hover {
-    color: #0be2fe;
+    color: #8c8c09;
 }
 
 html {
@@ -11,13 +9,12 @@ html {
     animation : animacion_varita 1s infinite;
 }
 section>*,header>*,footer>*,figure>* {
-    visibility:hidden;
-    transition:15s;
+    visibility: hidden;
+    transition: visibility 3s;
 }
 section:hover>* ,header:hover>*,footer:hover>*,figure:hover>*{
-    visibility:visible;
+    visibility: visible;
 }
-
 
 
 @keyframes animacion_varita {

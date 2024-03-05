@@ -1,11 +1,8 @@
 
+
 @font-face {
     font-family: 'firma';
     src: url('../fonts/firma.ttf');
-}
-@font-face {
-    font-family: 'parrafo';
-    src: url('../fonts/parrafo.ttf');
 }
 @font-face {
     font-family: 'titulo';
@@ -51,6 +48,10 @@ ul {
 p, li {
     font-family: cursive;
     font-weight: bold;
+}
+article p:first-child::first-letter { /* Primera letra del primer párrafo de cada artículo */
+    font-size: 2em;
+    font-family: titulo;
 }
 
 p:hover, li:hover, h1:hover, h2:hover {
