@@ -4,7 +4,7 @@
 
 ## Instrucciones
 
-1. Clona este repositorio.
+1. Clona o haz un fork de este repositorio.
 2. Crea 2 archivos: `carta.css` y `animacion.css`.
 3. Estiliza la carta de admisión con el archivo `carta.css`.
 4. Crea una animación con el archivo `animacion.css`.
