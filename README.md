@@ -34,6 +34,10 @@ Añade un poco de animación a la carta para que no sea tan aburrida. Puedes hac
 
 3. **BONUS**: Añade una animación para cambiar el cursor por una varita mágica. Puedes usar las imagenes `varita.png`, `varita1.png` y `varita2.png` para hacer una animación de varita mágica.
 
+## Imagen de referencia
+
+![Imagen de referencia](./img/referencia.jpg)
+
 ## Recursos
 
 - [fuentes en CSS](https://developer.mozilla.org/es/docs/Web/CSS/font-family)
