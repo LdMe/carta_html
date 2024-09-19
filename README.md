@@ -1,6 +1,6 @@
 # Carta de admisión
 
-!Felicidades! Acaban de admitirte en la escuela de magia y hechicería. Desgraciadamente, la persona responsable de estilizar las cartas de admisión miró directamente a los ojos de la basilisco y quedó petrificada. Pon a prueba tus conocimientos de CSS para estilizar la carta de admisión y salvar a la escuela de la bancarrota.
+¡Felicidades! Acaban de admitirte en la escuela de magia y hechicería. Desgraciadamente, la persona responsable de estilizar las cartas de admisión miró directamente a los ojos de la basilisco y quedó petrificada. Pon a prueba tus conocimientos de CSS para estilizar la carta de admisión y salvar a la escuela de la bancarrota.
 
 ## Instrucciones
 
